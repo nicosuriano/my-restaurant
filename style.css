@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url(https://db.onlinewebfonts.com/c/0407ed4aef00d4db57f6001e710e0a85?family=Castellar);
+
+
+ /* basic css reset */
+  *, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+}
+img{
+    display:block;
+    max-width: 100%;
+}
+/* basic css reset */
+
+.logo-text{
+    /* margin-right: auto; */
+    font-size: 1.5rem;
+    padding:10px;
+    margin-left: 4rem;
+}
+
+
+
+.flex-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1.5rem; */
+    font-size: 1.5rem;
+    min-height: 10vh;
+
+    background-color: #CCD5AE;
+}
+
+.left, .middle, .right{
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+.left{
+    display:flex;
+    align-items: center;
+    font-size: 1.5rem;
+    min-height: 10vh;
+
+    background-color: #CCD5AE;
+
+
+}
+
+.middle{
+
+    min-height: 15vh;
+
+    background-color: #FEFAE0;
+}
+
+.middle, h1{
+    display: flex;
+    font-size: 3rem;
+    padding:10px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #D4A373;
+    /* border: solid #D4A373; */
+
+
+}
+
+
+.right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 1.5rem;
+    min-height: 15vh;
+
+    background-color: #EDAFAF;
+
+}
+
+nav a, .button{
+
+    font-family: "Lora";
+    text-transform: uppercase;
+    background-color: #D4A373;
+    color: #FEFAE0;
+    text-decoration: none;
+    padding:10px;
+
+
+}
+
+
+.hero{
+    min-height: 81vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #FEFAE0;
+    font-family: "Castellar";
+    font-size: 5rem;
+    color: #D4A373;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-top: 100px solid #FAEDCD;
+    border-bottom: 100px solid #FAEDCD;
+}
+
+.bean{
+
+    display: flex;
+    gap: 40rem;
+
+
+}
+
+
+.item-gallery{
+
+    display:flex;
+    gap: 4rem;
+    padding: 4rem;
+
+    background-color: #FEFAE0;
+    border-top: 100px solid #FAEDCD;
+    border-bottom: 80px solid #FAEDCD;
+    min-height: 10vh;
+
+
+}
+
+.card{
+
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    background-color: #D4A373;
+    border: 20px solid #D4A373;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    gap: 4rem;
+}
+
+.card, h3{
+
+    display: flex;
+    font-family: "Lora";
+    color: #FEFAE0;
+    font-size: 2rem;
+    padding: 1rem;
+    align-items: center;
+
+
+}
+
+main{
+    min-height:70vh;
+}
+
+.card-image{
+
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+
+.about-box{
+
+    display: flex;
+    font-family: "Lora";
+    min-height: 60%;
+
+    color: #FEFAE0;
+    font-size: 2rem;
+    padding: 1rem;
+    align-items: center;
+    background-color: #D4A373;
+    border: 20px solid #D4A373;
+    margin-right: 15rem;
+
+
+}
+
+.about-gallery{
+
+        display:flex;
+        padding: 4.2rem;
+        align-items: center;
+
+        background-color: #FEFAE0;
+        border-top: 100px solid #FAEDCD;
+        border-bottom: 80px solid #FAEDCD;
+        min-height: 10vh;
+}
+
+
+.logo-image{
+
+    width: 400px;
+    height: 400px;
+    margin-right: 10rem;
+}
